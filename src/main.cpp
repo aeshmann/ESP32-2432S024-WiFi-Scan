@@ -30,8 +30,8 @@
 
 Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC, TFT_MOSI, TFT_CLK, TFT_RST, TFT_MISO);
 
-const char* wssid = "Xiaomi_065C"; // Change this to your WiFi SSID
-const char* wpass = "43v3ry0nG"; // Change this to your WiFi password
+const char* wssid = "YOUR_SSID"; // Change this to your WiFi SSID
+const char* wpass = "YOUR_PASSWORD"; // Change this to your WiFi password
 const char* ntpHost[] = {"0.ru.pool.ntp.org", "1.ru.pool.ntp.org", "2.ru.pool.ntp.org"};
 const int serial_baud = 115200;
 
